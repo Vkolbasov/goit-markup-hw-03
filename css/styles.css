@@ -245,15 +245,14 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  
 }
-}
+
 /* Футер */
 
 .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: var(--tertiary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--tertiary-bg-color);
 }
 
 .logo-footer {
