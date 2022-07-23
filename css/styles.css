@@ -1,0 +1,200 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --primay-bg-color: rgba(255, 255, 255, 1);
+  --secondary-bg-color: rgba(245, 244, 250, 1);
+  --tertiary-bg-color: rgba(47, 48, 58, 1);
+  --button-link-primary: rgba(33, 150, 243, 1);
+  --button-active-color: #188ce8;
+  --logo-secondary-color: rgba(0, 0, 0, 1);
+}
+
+body {
+  background-color: var(--primay-bg-color);
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* Логотип */
+
+.logo {
+  color: var(--button-link-primary);
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.head-logo {
+  color: var(--logo-secondary-color);
+}
+
+/* ссылки навигации */
+.navigation .link.accent {
+  color: var(--button-link-primary);
+}
+.navigation .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--button-link-primary);
+}
+
+/* Контакты*/
+.contacts-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: var(--button-link-primary);
+}
+
+/*Секции*/
+
+.list {
+  list-style: none;
+}
+
+/* Герой */
+.hero {
+  background-color: var(--tertiary-bg-color);
+  text-align: center;
+}
+.hero-title {
+  color: var(--primay-bg-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Кнопка */
+.button {
+  color: var(--primay-bg-color);
+  background-color: var(--button-link-primary);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--button-active-color);
+}
+
+/* Внимание к деталям  */
+.hide {
+  font-size: 1px;
+  color: #ffffff;
+}
+
+.details-title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.details-text {
+  color: var(--primary-text-color);
+  line-height: 1.71;
+}
+/* Чем мы щанимаемся  */
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Наша команда */
+
+.our-team {
+  background-color: var(--secondary-bg-color);
+}
+
+.our-team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.our-team-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* Футер */
+
+.footer {
+  background-color: var(--tertiary-bg-color);
+}
+.logo-footer {
+  color: var(--primay-bg-color);
+}
+.location {
+  color: var(--primay-bg-color);
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.foot-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.foot-link:hover,
+.foot-link:focus {
+  color: var(--button-link-primary);
+}
+
+/* ПОРТФОЛИО */
+
+/* кнопки фильтра*/
+
+.filtres {
+  background: var(--secondary-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  border: 0;
+  margin-right: 8px;
+  padding: 6px 22px 6px 22px;
+}
+.filtres:hover,
+.filtres:focus {
+  background-color: var(--button-link-primary);
+  color: var(--primay-bg-color);
+}
+
+/*Проекты*/
+
+.project-title {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+.project-link {
+  text-decoration: none;
+}
