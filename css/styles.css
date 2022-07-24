@@ -21,6 +21,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 ul,
 h1,
 h2,
@@ -47,6 +53,7 @@ img {
 .header {
   border-bottom: 1px solid var(--border-header-color);
 }
+
 .header-con {
   display: flex;
   align-items: center;
@@ -279,6 +286,12 @@ img {
 /* ПОРТФОЛИО */
 
 /* кнопки фильтра*/
+.portfolio-filtr-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
 
 .filtres {
   background: var(--secondary-bg-color);
@@ -292,6 +305,7 @@ img {
   margin-right: 8px;
   padding: 6px 22px 6px 22px;
 }
+
 .filtres:hover,
 .filtres:focus {
   background-color: var(--button-link-primary);
@@ -299,9 +313,16 @@ img {
 }
 
 /*Проекты*/
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
 .project-title {
   color: var(--title-text-color);
+
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -311,6 +332,18 @@ img {
   font-size: 16px;
   line-height: 1.88;
 }
+
+.project-cards {
+  width: calc((100% - 60px) / 3);
+}
+
+.project-block {
+  padding: 20px 24px 20px 24px;
+  border: 1px solid var(--project-card-shadow);
+  border-top: 0;
+}
+
 .project-link {
   text-decoration: none;
+  display: block;
 }
