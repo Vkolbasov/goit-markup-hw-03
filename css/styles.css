@@ -100,8 +100,8 @@ img {
 
 .link {
   display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* Контакты*/
 .contacts-link {
@@ -176,8 +176,7 @@ img {
 
 /* Внимание к деталям  */
 .hide {
-  font-size: 1px;
-  color: #ffffff;
+  visibility: hidden;
 }
 
 .details {
@@ -186,17 +185,26 @@ img {
   gap: 30px;
 }
 
+.details-item {
+  width: 270px;
+}
+
 .details-title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
+
 .details-text {
   color: var(--primary-text-color);
   line-height: 1.71;
 }
 /* Чем мы занимаемся  */
+.todo-section {
+  padding-top: 0;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -262,6 +270,15 @@ img {
   background-color: var(--tertiary-bg-color);
 }
 
+.footer .logo {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.footer .address-item {
+  margin-right: 0;
+  margin-bottom: 9px;
+}
 .logo-footer {
   color: var(--primay-bg-color);
 }
@@ -311,7 +328,9 @@ img {
   background-color: var(--button-link-primary);
   color: var(--primay-bg-color);
 }
-
+.resume-accent {
+  background-color: var(--primay-bg-color);
+}
 /*Проекты*/
 .project {
   display: flex;
