@@ -176,7 +176,16 @@ img {
 
 /* Внимание к деталям  */
 .hide {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .details {
@@ -273,9 +282,10 @@ img {
 .footer .logo {
   margin-right: 0;
   margin-bottom: 20px;
+  display: block;
 }
 
-.footer .address-item {
+.footer .address-item:not(:last-child) {
   margin-right: 0;
   margin-bottom: 9px;
 }
@@ -329,7 +339,8 @@ img {
   color: var(--primay-bg-color);
 }
 .resume-accent {
-  background-color: var(--primay-bg-color);
+  background-color: #188ce8;
+  color: var(--primay-bg-color);
 }
 /*Проекты*/
 .project {
