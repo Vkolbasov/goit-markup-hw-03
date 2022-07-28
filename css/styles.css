@@ -329,8 +329,11 @@ img {
   cursor: pointer;
   font-family: inherit;
   border: 0;
-  margin-right: 8px;
   padding: 6px 22px 6px 22px;
+}
+
+.filters-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .filtres:hover,
